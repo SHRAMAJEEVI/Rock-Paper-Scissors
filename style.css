@@ -1,0 +1,31 @@
+button{
+    background-image: linear-gradient(black,purple);
+    color: white;
+    border-radius: 15px;
+    height: 50px;width: 70px;
+    
+}
+body{
+    background-color: black;
+    color: white;
+  animation-name: coloranimate;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+
+} 
+
+@keyframes coloranimate{
+    from{background-color: black;color: white;}
+    to{background-color: white;color: black;}
+    
+}
+a{
+    color: white;
+    width: 50px;
+}
+#keeru{
+    color: white;
+}
+
+
